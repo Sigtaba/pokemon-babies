@@ -1,13 +1,26 @@
+body {
+  align-items: center;
+  background-image: url(https://s3.amazonaws.com/files.enjin.com/564201/images/bg/bg4.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
 h1 {
-  font-family: sans-serif;
-  color: #7917BD;
+  font-family: ceviche one;
+  color: black;
   text-align: center;
+  font-size: 95px;
 }
 
 h2 {
-  font-family: cursive;
-  color: maroon;
+  font-family: caveat;
+  color: black;
   text-align: center;
+  font-size: 50px;
+}
+
+p {
+  font-family: pt sans;
 }
 
 img {
@@ -19,7 +32,7 @@ img {
   width: 300px;
   float: left;
   padding: 30px;
-  border: 4px solid maroon;
+  border: 4px solid #D9811D;
   margin: 10px;
   background-color: #F6F9CA;
 }
@@ -28,8 +41,9 @@ img {
   width: 300px;
   float: left;
   padding: 30px;
-  border: 4px solid maroon;
+  border: 4px solid #B21487;
   margin: 10px;
+  padding-bottom: 155px;
   background-color: #F5CDF3;
 }
 
@@ -37,6 +51,7 @@ img {
   width: 300px;
   float: left;
   padding: 30px;
+  padding-bottom: 175px;
   border: 4px solid maroon;
   margin: 10px;
   background-color: #F2B3B3;
@@ -46,9 +61,40 @@ img {
   width: 300px;
   float: left;
   padding: 30px;
-  border: 4px solid maroon;
+  padding-bottom: 35px;
+  border: 4px solid #B21487;
   margin: 10px;
   background-color: #F5CDF3;
+}
+
+.smoochum {
+  width: 300px;
+  float: left;
+  padding: 30px;
+  padding-bottom: 75px;
+  border: 4px solid #660989;
+  margin: 10px;
+  background-color: #D9ABEA;
+}
+
+.mantyke {
+  width: 300px;
+  float: left;
+  padding: 30px;
+  padding-bottom: 233px;
+  border: 4px solid #0D5C86;
+  margin: 10px;
+  background-color: #ABD4EA;
+}
+
+.mantyke p a {
+  font-weight: bold;
+  color: #0D5C86;
+}
+
+.smoochum p a {
+  font-weight: bold;
+  color: #660989;
 }
 
 .pichu p a {
