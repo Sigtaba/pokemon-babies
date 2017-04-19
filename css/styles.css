@@ -70,3 +70,17 @@ img {
   font-weight: bold;
   color: #FFFFFF;
 }
+
+/* Media Query Below */
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  body {
+    background-color: #7917BD
+  }
+}
+
+@media screen and (max-width: 480px) and (min-width: 300px) {
+  body {
+    background-color: #F5CDF3
+  }
+}
